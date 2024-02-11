@@ -1,1 +1,1 @@
-EX Design course landing page
+EX Design course landing page.
