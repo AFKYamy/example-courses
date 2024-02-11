@@ -1,0 +1,19 @@
+.btn--login {
+    border: none;
+    background: var(--white);
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Oswald';
+    width: 9rem;
+    height: 2.9rem;
+
+    transition: ease-in-out 0.15s;
+}
+
+.btn--login:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background: var(--purple);
+    color: var(--white);
+}

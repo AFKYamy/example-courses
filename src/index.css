@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --black: #101111;
+  --white: #ffffff;
+  --purple: #b860fa;
+  --light-purple: #b885fa;
+  --dark-purple: #6b4fd1;
+  --gray: #9c9d9d;
+  --dark-gray: #242727;
+  --dark: #000000;
+  --font-family: 'Oswald', 'Krub', sans-serif;
+}
+
+* {
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  font-family: var(--font-family);
+}
+
+img {
+  filter: saturate(0);
+}
+
+.dot {
+  color: var(--purple);
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+@media (max-width: 475px) {
+  .container {
+    max-width: 99%;
+  }
+}

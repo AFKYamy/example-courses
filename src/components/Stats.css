@@ -1,0 +1,102 @@
+.stats, .students, .courses, .awards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.stats {
+    justify-content: space-evenly;
+
+    position: relative;
+    width: 100%;
+    height: 12rem;
+    max-height: 12rem;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.7);
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.2);
+}
+
+.stats h2, .stats p {
+    font-family: 'Krub';
+    line-height: 2rem;
+    font-size: 2rem;
+}
+
+.stats h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.stats h2 {
+    font-weight: 600;
+}
+
+.stats p {
+    font-weight: 300;
+}
+
+.plus {
+    color: var(--purple);
+    text-shadow: 0px 0px 30px var(--purple);
+}
+
+@media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+
+    .stats {
+        margin-top: 5rem;
+    }
+
+    .stats h1 {
+        font-size: 2.4rem;
+    }
+
+    .stats p, .stats h2 {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    } 
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+
+    .stats {
+        flex-direction: column;
+        min-height: 25rem;
+    }
+
+    .stats h1 {
+        font-size: 3rem;
+    }
+
+    .stats p, .stats h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    } 
+  }
+  
+  @media (max-width: 475px) {
+    .container {
+      max-width: 99%;
+    }
+
+    .stats h1 {
+        font-size: 2.5rem;
+    }
+
+    .stats p, .stats h2 {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    } 
+  }

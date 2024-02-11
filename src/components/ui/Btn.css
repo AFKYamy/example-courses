@@ -1,0 +1,57 @@
+.btn {
+  position: relative;
+  border: none;
+  width: 10rem;
+  height: 3.7rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: 'Oswald';
+  background: var(--black);
+  z-index: 1;
+  cursor: pointer;
+    
+  transition: ease-in-out 0.15s;
+}
+  
+.btn--primary {
+  background: var(--purple);
+}
+  
+.btn--secondary {
+  background: var(--light-purple);
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  transition: ease-in-out 0.15s;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+.btn:hover:before {
+  transform: scaleY(1);
+}
+
+.btn--primary:before,
+.btn--secondary:before {
+  background: var(--dark-purple);
+}
+
+.btn--terciary:before {
+  background: var(--dark-gray);
+}
+
+@media (max-width: 1536px){
+  .btn {
+    width: 7rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+}
