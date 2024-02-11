@@ -1,8 +1,8 @@
 import './Btn.css';
 
-const Btn = ({type, text}) => {
+const Btn = ({type, text, href}) => {
     return (
-        <button className={`btn ${type}`}>{text}</button>
+        <button className={`${type}`} href={href} >{text}</button>
     )
 }
 

@@ -1,0 +1,106 @@
+.courses {
+    display: flex;
+    flex-direction: column;
+
+    height: 90vh;
+    font-family: 'Krub';
+}
+
+.courses__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.courses__heading--text {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.courses--bold {
+    font-weight: 700;
+    font-size: 7rem;
+    margin-right: 1rem;
+}
+
+.courses__edition {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-self: center;
+
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+.courses__edition--year {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+}
+
+.courses__list {
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+
+    margin-top: 5rem;
+}
+
+.courses__more {
+    margin-top: 4.5rem;
+    text-align: center;
+}
+
+.courses__more a {
+    text-decoration: none;
+    font-size: 1.3rem;
+
+    transition: ease-in-out 0.15s;
+}
+
+.courses__more a:hover {
+    color: var(--purple);
+}
+
+@media (max-width: 768px) {
+    .courses__heading--text {
+        font-size: 1.5rem;
+    }
+
+    .courses--bold {
+        font-size: 3rem;
+    }
+
+    .courses__edition {
+        font-size: 1rem;
+    }
+
+    .courses__edition--year {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 475px) {
+    .courses__heading--text {
+        font-size: 1.2rem;
+    }
+
+    .courses--bold {
+        font-size: 2.5rem;
+        margin-right: 0.3rem;
+    }
+
+    .courses__edition {
+        font-size: 1rem;
+        gap: 0.2rem;
+    }
+
+    .courses__edition--year {
+        font-size: 1.5rem;
+    }
+}

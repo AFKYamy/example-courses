@@ -43,8 +43,8 @@ const Hero = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, error ipsum?</p> 
                     </div>
                     <div className="info__btns">
-                        <Btn type="btn--primary" text="LET'S START" />
-                        <Btn type="btn--terciary" text="READ MORE" />
+                        <Btn type="btn btn--primary" text="LET'S START" href="#"/>
+                        <Btn type="btn btn--terciary" text="READ MORE" href="#"/>
                     </div>
                 </div>
             </div>

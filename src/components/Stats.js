@@ -12,11 +12,11 @@ const Stats = () => {
                     <h2>STUDENTS</h2>
                 </div>
             </div>
-            <div className="courses">
-                <div className="courses__number">
+            <div className="stats__courses">
+                <div className="stats__courses--number">
                     <h1><span className="plus">+</span>50</h1>
                 </div>
-                <div className="courses__text">
+                <div className="stats__courses--text">
                     <p>CERTIFIED</p>
                     <h2>COURSES</h2>
                 </div>

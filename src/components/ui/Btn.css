@@ -1,4 +1,4 @@
-.btn {
+.btn, .btn--small {
   position: relative;
   border: none;
   width: 10rem;
@@ -12,6 +12,12 @@
     
   transition: ease-in-out 0.15s;
 }
+
+.btn--small {
+  width: 7.5rem;
+  height: 3rem;
+  font-size: 1rem;
+}
   
 .btn--primary {
   background: var(--purple);
@@ -21,7 +27,7 @@
   background: var(--light-purple);
 }
 
-.btn:before {
+.btn:before, .btn--small:before {
   content: "";
   position: absolute;
   top: 0;
@@ -35,7 +41,7 @@
   transform-origin: bottom;
 }
 
-.btn:hover:before {
+.btn:hover:before, .btn--small:hover:before {
   transform: scaleY(1);
 }
 
