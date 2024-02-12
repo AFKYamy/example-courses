@@ -13,7 +13,7 @@ const Courses = () => {
                 </div>
                 <div className="courses__edition">
                     <div className="courses__edition--square">
-                        <Square />
+                        <Square type="square--blink" />
                     </div>
                     <div className="courses__edition--text">
                         <p>EDITION</p>

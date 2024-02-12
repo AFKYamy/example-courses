@@ -4,6 +4,11 @@
     }
 }
 
-.square {
+.square--blink {
+    filter: saturate(0);
     animation: blink 1s linear infinite;
+}
+
+.square {
+    filter: invert(48%) sepia(50%) saturate(4266%) hue-rotate(240deg) brightness(104%) contrast(70%);
 }

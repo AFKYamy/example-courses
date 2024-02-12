@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className="navbar container">
             <div className="logo">
-                <a href="#"><h1 className="logo__title">EX</h1></a>
+                <h1 className="logo__title"><a href="#">EX</a></h1>
             </div>
             <input type="checkbox" className="toggle__menu"/>
             <div className="ham__menu"></div>

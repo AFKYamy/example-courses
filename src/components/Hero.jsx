@@ -18,7 +18,7 @@ const Hero = () => {
                     </div>
                     <div className="quote__text">
                         <div className="quote__text--square">
-                            <Square />
+                            <Square  type="square--blink" />
                         </div>
                         <p>BECOME A <br/>PRO-DESIGNER</p>
                     </div>

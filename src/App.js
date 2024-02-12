@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Stats from './components/Stats';
 import Explore from './components/Explore';
 import Courses from './components/Courses';
+import About from './components/About';
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                 <Stats />
                 <Explore />
                 <Courses />
+                <About />
             </main>
         </body>
     )

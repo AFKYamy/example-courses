@@ -105,16 +105,11 @@
 #middle__circle--left {
     align-self: flex-start;
     margin-top: 8rem;
-
-    animation: float 5s ease-in-out infinite;
 }
 
 #middle__circle--right {
     align-self: flex-end;
     margin-bottom: 8rem;
-
-    animation: float 5s ease-in-out infinite;
-    animation-delay: 0.5s;
 }
 
 @media (max-width: 1536px) {

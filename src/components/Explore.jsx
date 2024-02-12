@@ -8,11 +8,11 @@ const Explore = () => {
     return (
         <div className="explore container">
             <div className="text__left">
-                <Square />
+                <Square  type="square--blink" />
                 <h2>DISCOVER YOUR SKILLS</h2>
             </div>
             <div className="text__middle">
-                <Circle id="middle__circle--left"/>
+                <Circle id="middle__circle--left" type="circle1"/>
                 <div className="middle__content">
                     <div className="middle__content--text">
                         <h1>ACCEPT</h1>
@@ -23,10 +23,10 @@ const Explore = () => {
                         <Arrow id="middle--arrow"/>
                     </div>
                 </div>
-                <Circle id="middle__circle--right"/>
+                <Circle id="middle__circle--right" type="circle2"/>
             </div>
             <div className="text__right">
-                <Square />
+                <Square  type="square--blink" />
                 <h2>DISCOVER YOUR SKILLS</h2>
             </div>
         </div>

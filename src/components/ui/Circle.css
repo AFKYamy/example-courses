@@ -1,3 +1,20 @@
-.circle__small {
-    filter: saturate(1);
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
+
+.circle1, .circle2 {
+    filter: saturate(1);
+    animation: float 5s ease-in-out infinite;
+}
+
+.circle2 {
+    animation-delay: 0.5s;
+} 
