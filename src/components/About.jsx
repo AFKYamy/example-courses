@@ -13,11 +13,11 @@ const About = () => {
             <div className="about container">
                 <div className="about__text">
                     <div className="about__text--heading">
-                        <h1>About</h1>
-                        <p>us.</p>
+                        <h1 className="heading-big">About</h1>
+                        <p className="par-big-purple">us.</p>
                     </div>
                     <div className="about__text--info">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quam esse eos soluta adipisci quasi, aperiam laboriosam eum pariatur ut tempore quia.</p>
+                        <p className="par-medium-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quam esse eos soluta adipisci quasi, aperiam laboriosam eum pariatur ut tempore quia.</p>
                     </div>
                     <div className="about__text--points">
                         <div className="about__text--point1 about__text--point">

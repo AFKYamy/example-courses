@@ -37,10 +37,10 @@ const Hero = () => {
                 </div>
                 <div className="info__desc">
                     <div className="info__title">
-                        <h1>START GUIDE FOR BEGINNER DESIGNERS</h1>
+                        <h1 className="heading-medium">START GUIDE FOR BEGINNER DESIGNERS</h1>
                     </div>
                     <div className="info__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, error ipsum?</p> 
+                        <p className="par-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, error ipsum?</p> 
                     </div>
                     <div className="info__btns">
                         <Btn type="btn btn--primary" text="LET'S START" href="#"/>

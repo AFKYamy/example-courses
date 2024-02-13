@@ -5,12 +5,13 @@
 
 #about__circle2 {
     position: absolute;
-    left: 40%;
+    left: 45%;
+    margin-top: -10rem;
     animation-delay: 0.3s;
 }
 
 .about__section {
-    height: 80vh;
+    height: 100vh;
 }
 
 .about {
@@ -33,21 +34,9 @@
     gap: 1rem;
 }
 
-.about__text--heading h1 {
-    font-size: 5rem;
-    font-weight: 700;
-}
-
-.about__text--heading p {
-    color: var(--purple);
-    font-size: 5rem;
-}
-
 .about__text--info {
-    width: 60%;
     margin-top: 1.5rem;
-    font-weight: 600;
-    line-height: 2rem;
+    width: 70%;
 }
 
 .about__text--points {
@@ -80,17 +69,17 @@
     filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.7));
 }
 
+.about--circle {
+    position: absolute;
+    filter: saturate(1);
+    height: 60%;
+    width: auto;
+}
+
 .about--img {
     max-width: 100%;
     height: auto;
     position: relative;
-}
-
-.about--circle {
-    position: absolute;
-    filter: saturate(1);
-    height: 100%;
-    width: auto;
 }
 
 @media (max-width: 640px) {
@@ -100,9 +89,6 @@
 
     .about__text--info {
         width: 100%;
-        margin-top: 1.5rem;
-        font-weight: 600;
-        line-height: 2rem;
     }
 
     .about__text--points {
@@ -117,13 +103,7 @@
         margin-top: 5rem;
     }
 
-    #about__circle1, #abour__circle2 {
+    #about__circle1, #about__circle2 {
         display: none;
-    }
-}
-
-@media (max-width: 475px) {
-    .about__text--heading h1, .about__text--heading p {
-        font-size: 3rem;
     }
 }

@@ -4,6 +4,7 @@ import Stats from './components/Stats';
 import Explore from './components/Explore';
 import Courses from './components/Courses';
 import About from './components/About';
+import WhyUs from './components/WhyUs/WhyUs';
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                 <Explore />
                 <Courses />
                 <About />
+                <WhyUs />
             </main>
         </body>
     )
