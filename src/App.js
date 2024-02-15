@@ -5,6 +5,7 @@ import Explore from './components/Explore';
 import Courses from './components/Courses';
 import About from './components/About';
 import WhyUs from './components/WhyUs/WhyUs';
+import Reviews from './components/Reviews/Reviews';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                 <Courses />
                 <About />
                 <WhyUs />
+                <Reviews />
             </main>
         </body>
     )

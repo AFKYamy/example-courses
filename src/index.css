@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap');
 
 :root {
+  /* Colors */
   --black: #101111;
   --white: #ffffff;
   --purple: #b860fa;
@@ -11,6 +12,14 @@
   --dark-gray: #242727;
   --dark: #000000;
   --font-family: 'Oswald', 'Krub', sans-serif;
+
+  /* Text sizes */
+  --heading-medium: 1.7rem;
+  --heading-big: 5rem;
+  --heading-large: 7rem;
+  --par-medium: 1.2rem;
+  --par-big: 2rem;
+  --par-large: 5rem;
 }
 
 @keyframes rotate1 {
@@ -80,9 +89,9 @@ img {
   font-weight: 700;
 }
 
-.par-big-purple {
-  color: var(--purple);
-  font-size: 5rem;
+.heading-large {
+  font-size: 7rem;
+  font-weight: 700;
 }
 
 .par-medium {
@@ -93,6 +102,19 @@ img {
 .par-medium-bold {
   font-weight: 600;
   line-height: 2rem;
+}
+
+.par-big {
+  font-size: 2rem;
+}
+
+.par-large {
+  font-size: 5rem;
+}
+
+.par-big-purple {
+  color: var(--purple);
+  font-size: 5rem;
 }
 
 .dot {
@@ -138,6 +160,10 @@ img {
 @media (max-width: 475px) {
   .container {
     max-width: 99%;
+  }
+
+  .heading-large {
+    font-size: 4rem;
   }
 
   .heading-big {

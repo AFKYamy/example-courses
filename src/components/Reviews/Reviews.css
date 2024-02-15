@@ -1,0 +1,21 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+    margin-top: 7rem;
+    min-height: 70vh;
+    font-family: 'Krub';
+    text-align: center;
+}
+
+.reviews__heading h1 {
+    margin-bottom: -1rem;
+}
+
+.reviews__users {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
