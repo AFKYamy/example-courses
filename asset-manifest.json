@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/example-courses/static/css/main.6ce5cab0.css",
+    "main.js": "/example-courses/static/js/main.138f5577.js",
+    "static/media/image1.png": "/example-courses/static/media/image1.52c079b5c2e6ac75cb76.png",
+    "static/media/image2.png": "/example-courses/static/media/image2.2dd62cef8ce36e2919e2.png",
+    "static/media/image3.png": "/example-courses/static/media/image3.0c44e25c89fd47d0926f.png",
+    "static/media/user2.png": "/example-courses/static/media/user2.21cac36141f7dbf78592.png",
+    "static/media/user3.png": "/example-courses/static/media/user3.d503ac63cb30aff48694.png",
+    "static/media/user1.png": "/example-courses/static/media/user1.ef482a6be0d647ecb249.png",
+    "index.html": "/example-courses/index.html",
+    "main.6ce5cab0.css.map": "/example-courses/static/css/main.6ce5cab0.css.map",
+    "main.138f5577.js.map": "/example-courses/static/js/main.138f5577.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ce5cab0.css",
+    "static/js/main.138f5577.js"
+  ]
+}
